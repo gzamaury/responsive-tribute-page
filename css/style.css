@@ -1,66 +1,92 @@
 html,body {
-  margin: auto;
-  width: 90vw;
-  height: 428vw;
+    margin: auto;
+    width: 95vw;
+    height: 280vw;
 }
 body {
-  background-color: #130C13;
-  /*background: url("https://lh6.googleusercontent.com/_oGXgZIKsHgCD8LtPiE-AiDOQocabvmmy20MHkD5scc-8cGilceOACCZs-Vb9Gdu9zy683ZbSwlCuYWqxybk=w1439-h818");*/
-  color: hsla(43, 53%, 91%, .8);
-  font-size: 1.2em;
+    background-color: #130C13;
+    /*background: url("https://lh6.googleusercontent.com/_oGXgZIKsHgCD8LtPiE-AiDOQocabvmmy20MHkD5scc-8cGilceOACCZs-Vb9Gdu9zy683ZbSwlCuYWqxybk=w1439-h818");*/
+    color: hsla(43, 53%, 91%, .8);
+    font-size: 1.2em;
 }
 #title {
-  /* font-family: 'Notable', sans-serif; */
-  font-family: 'Bowlby One SC', cursive;
-  text-align: center;
-  letter-spacing: 3px;
-  font-size: 8vw;
+    /* font-family: 'Notable', sans-serif; */
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 8vw;
 }
 #image {
-  width:80%;
-  height: auto;
-  max-width: 500px;
-  border-radius: 25% 25% 10% 10%;
-  display: block;
-  margin: auto;
+    width: 48vw;
+    height: auto;
+    max-width: 500px;
+    border-radius: 25% 25% 10% 10%;
+    display: block;
+    margin: auto;
 }
 #img-caption {
-  font-family: 'Crimson Text', serif;
-  font-style: italic;
-  text-align: center;
-  /*font-size: 0.68em;*/
-  font-size: 2.7vw;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    text-align: center;
+    /*font-size: 0.68em;*/
+    font-size: 2.7vw;
 }
 p {
-  text-align: justify;
-  font-size: 4vw;
+    text-align: justify;
+    font-size: 3.10vw;
 }
 a {
-  text-decoration: none;
-  color: hsla(14, 67%, 69%, .8);
-  font-style: italic;
+    text-decoration: none;
+    color: hsla(14, 67%, 69%, .8);
+    font-style: italic;
 }
 a:hover {
-  opacity: 0.5;
-  text-decoration: underline;
+    opacity: 0.5;
+    text-decoration: underline;
 }
 .spotify {
-  font-family: spotify-circular, sans-serif;
-  color: #1db954;
-  font-style: italic;
-  font-weight: bold;
+    font-family: spotify-circular, sans-serif;
+    color: #1db954;
+    font-style: italic;
+    font-weight: bold;
 }
 #tribute-info {
-  margin: auto;
-  
+    margin: auto;
+
+}
+.shape {
+    shape-outside: url(../img/silhouette-guitar_mod_izq.svg);
+    shape-image-threshold: 0;
+    float: left;
 }
 .left-shape {
-  float: left;
-  width: 45vw;
-  height: 211vw;
-  shape-outside: polygon(0 0, 45vw 105.5vw, 0 211vw);
+    float: left;
+    width: 40vw;
+    height: 140vw;
+    /*shape-outside: polygon(0 0, 45vw 105.5vw, 0 211vw);*/
+    shape-outside: url(../img/silhouette-guitar_mod_izq.svg);
+    shape-image-threshold: 0;
 }
 .right-shape {
-  
+    float: right;
+    width: 46vw;
+    height: 140vw;
+    /*shape-outside: polygon(0 0, 45vw 105.5vw, 0 211vw);*/
+    shape-outside: url(../img/silhouette-guitar_mod_der.svg);
+    shape-image-threshold: 0;
 }
-
+#p-link {
+    text-align: center;
+}
+#ifr-playlist {
+    height: 55vw;
+}
+.guitar-arm {
+    margin: auto;
+    width: 18vw;
+}
+.guitar-head {
+    width: 38vw;
+    margin: auto;
+    -webkit-mask-box-image: url(../img/guitar-head.svg);
+}
