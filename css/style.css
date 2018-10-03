@@ -1,7 +1,7 @@
 html,body {
     margin: auto;
     width: 95vw;
-    height: 280vw;
+    height: 293vw;
 }
 body {
     background-color: #130C13;
@@ -17,12 +17,12 @@ body {
     font-size: 8vw;
 }
 #image {
-    width: 48vw;
+    width: 58vw;
     height: auto;
-    max-width: 500px;
+    max-width: 58vw;
     border-radius: 25% 25% 10% 10%;
     display: block;
-    margin: auto;
+    margin: 0px -10vw;
 }
 #img-caption {
     font-family: 'Crimson Text', serif;
@@ -87,6 +87,7 @@ a:hover {
 }
 .guitar-head {
     width: 38vw;
+    height: 43vw;
     margin: auto;
     -webkit-mask-box-image: url(../img/guitar-head.svg);
 }
