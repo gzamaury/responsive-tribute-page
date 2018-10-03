@@ -1,0 +1,66 @@
+html,body {
+  margin: auto;
+  width: 90vw;
+  height: 428vw;
+}
+body {
+  background-color: #130C13;
+  /*background: url("https://lh6.googleusercontent.com/_oGXgZIKsHgCD8LtPiE-AiDOQocabvmmy20MHkD5scc-8cGilceOACCZs-Vb9Gdu9zy683ZbSwlCuYWqxybk=w1439-h818");*/
+  color: hsla(43, 53%, 91%, .8);
+  font-size: 1.2em;
+}
+#title {
+  /* font-family: 'Notable', sans-serif; */
+  font-family: 'Bowlby One SC', cursive;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 8vw;
+}
+#image {
+  width:80%;
+  height: auto;
+  max-width: 500px;
+  border-radius: 25% 25% 10% 10%;
+  display: block;
+  margin: auto;
+}
+#img-caption {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  text-align: center;
+  /*font-size: 0.68em;*/
+  font-size: 2.7vw;
+}
+p {
+  text-align: justify;
+  font-size: 4vw;
+}
+a {
+  text-decoration: none;
+  color: hsla(14, 67%, 69%, .8);
+  font-style: italic;
+}
+a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.spotify {
+  font-family: spotify-circular, sans-serif;
+  color: #1db954;
+  font-style: italic;
+  font-weight: bold;
+}
+#tribute-info {
+  margin: auto;
+  
+}
+.left-shape {
+  float: left;
+  width: 45vw;
+  height: 211vw;
+  shape-outside: polygon(0 0, 45vw 105.5vw, 0 211vw);
+}
+.right-shape {
+  
+}
+
