@@ -60,9 +60,14 @@
 
         </div>
         <script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', function(){ 
-                document.querySelector('[title="Play"]').click();
-            }, false);
+            function autoplay() {
+                const btn = document.querySelector('[title="Play"]');
+                if (btn) {
+                    btn.click();
+                } else {
+                    setTimeout(autoplay, 2000);
+                }
+            }
         </script>
         <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
     </body>
