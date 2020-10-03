@@ -60,7 +60,9 @@
 
         </div>
         <script type="text/javascript">
-            document.querySelector('[title="Play"]').click();
+            document.addEventListener('DOMContentLoaded', function(){ 
+                document.querySelector('[title="Play"]').click();
+            }, false);
         </script>
         <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
     </body>
